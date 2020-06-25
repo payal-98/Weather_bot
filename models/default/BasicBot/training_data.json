@@ -1,0 +1,233 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "goodbye",
+        "text": "cu"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good by"
+      },
+      {
+        "intent": "goodbye",
+        "text": "cee you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good night"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "have a nice day"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you around"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "moin"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "let's go"
+      },
+      {
+        "intent": "greet",
+        "text": "hey dude"
+      },
+      {
+        "intent": "greet",
+        "text": "goodmorning"
+      },
+      {
+        "intent": "greet",
+        "text": "goodevening"
+      },
+      {
+        "intent": "greet",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "temperature",
+        "entities": [
+          {
+            "start": 27,
+            "end": 32,
+            "value": "Delhi",
+            "entity": "state"
+          }
+        ],
+        "text": "what is the temperature in Delhi"
+      },
+      {
+        "intent": "temperature",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "Patna",
+            "entity": "state"
+          }
+        ],
+        "text": "what is the weather in Patna"
+      },
+      {
+        "intent": "temperature",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "Mumbai",
+            "entity": "state"
+          }
+        ],
+        "text": "temperature in Mumbai"
+      },
+      {
+        "intent": "temperature",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "mumbai",
+            "entity": "state"
+          }
+        ],
+        "text": "temperature in mumbai"
+      },
+      {
+        "intent": "temperature",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "delhi",
+            "entity": "state"
+          }
+        ],
+        "text": "temperature in delhi"
+      },
+      {
+        "intent": "temperature",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "patna",
+            "entity": "state"
+          }
+        ],
+        "text": "temperature in patna"
+      },
+      {
+        "intent": "temperature",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "london",
+            "entity": "state"
+          }
+        ],
+        "text": "temperature in london"
+      },
+      {
+        "intent": "temperature",
+        "entities": [
+          {
+            "start": 15,
+            "end": 24,
+            "value": "bangalore",
+            "entity": "state"
+          }
+        ],
+        "text": "temperature in bangalore"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

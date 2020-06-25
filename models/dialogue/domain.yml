@@ -1,0 +1,31 @@
+%YAML 1.1
+---
+actions:
+- utter_bye
+- utter_greet
+- utter_default
+- action_weather
+config:
+  store_entities_as_slots: true
+entities:
+- state
+forms: []
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- temperature:
+    use_entities: true
+slots:
+  state:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+templates:
+  utter_bye:
+  - text: Bye!! See u again
+  utter_default:
+  - text: Didn't get it!!!
+  utter_greet:
+  - text: Hey!! How can I help u?

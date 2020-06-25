@@ -1,0 +1,24 @@
+%YAML 1.1
+---
+actions:
+- utter_bye
+- utter_greet
+- utter_default
+- action_weather
+entities:
+- state
+intents:
+- greet
+- goodbye
+- temperature
+slots:
+  state:
+    type: unfeaturized
+templates:
+  utter_bye:
+  - text: Bye!! See u again
+  utter_default:
+  - text: Didn't get it!!!
+  utter_greet:
+  - text: Hey!! How can I help u?
+ 
